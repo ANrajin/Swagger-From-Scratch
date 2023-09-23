@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SwaggerPractice</name>
+    </assembly>
+    <members>
+        <member name="M:SwaggerPractice.Controllers.ProductsController.Get">
+            <summary>
+            Get All Products
+            </summary>
+            <returns>Get All Products</returns>
+        </member>
+        <member name="M:SwaggerPractice.Controllers.ProductsController.Get(System.Guid)">
+            <summary>
+            Get a specific product by id
+            </summary>
+            <param name="id"></param>
+            <returns>Returns an ActionResult of type Product</returns>
+            <response code="200">Returns the requested Product</response>
+        </member>
+    </members>
+</doc>
